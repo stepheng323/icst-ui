@@ -1,0 +1,9 @@
+.side-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-info:hover {
+  color: blue;
+  cursor: pointer;
+}

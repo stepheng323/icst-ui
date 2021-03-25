@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.header-menu-logo {
+  color: blue;
+}
+
+.menu-icon {
+  color: #606060;
+  font-size: 1.4em !important;
+}
+
+.header-input {
+  display: flex;
+  width: 48%;
+  height: 30px;
+  padding-left: 0.6em;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 1px;
+  margin-right: 6em;
+}
+
+.header-input > input {
+  border: none;
+  flex: 1;
+  outline: none;
+}
